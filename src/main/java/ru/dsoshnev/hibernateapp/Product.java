@@ -25,6 +25,11 @@ public class Product {
         this.cost = cost;
     }
 
+    public Product(String title, Double cost) {
+        this.title = title;
+        this.cost = cost;
+    }
+
     public Long getId() {
         return id;
     }
